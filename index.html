@@ -1,83 +1,45 @@
 <!DOCTYPE HTML>
 <!--
 	Aerial by HTML5 UP
-	html5up.net | @n33co
+	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>El Manouche</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-			<link rel="stylesheet" href="css/style-noscript.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<title>Aerial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="loading">
+	<body class="is-preload">
 		<div id="wrapper">
 			<div id="bg"></div>
 			<div id="overlay"></div>
 			<div id="main">
-			
+
 				<header id="header">
 					<h1>El Manouche</h1>
 					<p>Software Engineer &nbsp;&bull;&nbsp; Web Developer</p>
 					<nav>
 						<ul>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							<li><a href="//www.linkedin.com/in/manuchardonnens" class="icon fa-brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="//github.com/ElManouche" class="icon fa-brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="mailto:me@elmanou.ch" class="icon solid fa-envelope-o"><span class="label">Email</span></a></li>
 						</ul>
 					</nav>
 				</header>
 
-				<article id="contact" class="panel">
-					<header>
-						<h2>Contact Me</h2>
-					</header>
-					<form action="https://getsimpleform.com/messages?form_api_token=4afcccd110400f9c1ba1c409e543b918" method="post">
-						<div>
-							<div class="row">
-								<div class="6u">
-									<input type="text" name="name" placeholder="Name" />
-								</div>
-								<div class="6u">
-									<input type="text" name="email" placeholder="Email" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<input type="text" name="subject" placeholder="Subject" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<textarea name="message" placeholder="Message" rows="8"></textarea>
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<input type="submit" value="Send Message" />
-								</div>
-							</div>
-						</div>
-					</form>
-				</article>
-				
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
-				
+				<footer id="footer">
+					<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Hosted on <a href="//github.com/ElManouche/elmanouche.github.io">GitHub</a></span>
+				</footer>
+			
 			</div>
 		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>
